@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adilson Domiciano Jr </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="wrapper flex">
+      <aside>
+        <img src="img/photo.jpeg" alt="Adilson avatar" width="170" height="200"/>
+        <h1>Adilson</h1>
+        <h2>Analista de Software</h2>
+        <ul class="links">
+          <li><img src="img/globle.svg" /> adilsondjr@gmail.com</li>
+          <li><img src="img/globle.svg" /> (35) 9 99999-8888</li>
+          <li><img src="img/globle.svg" /> Santa Rita do Sapucaí - MG</li>
+        </ul>
+        <h3>Conhecimentos</h3>
+        <ul class="Conhecimentos">
+          <li>Java</li>
+          <li>JUnit</li>
+          <li>AWS</li>
+          <li>Kafka</li>
+          <li>Jenkins</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+          <li>Postman</li>
+        </ul>
+        <h3>Idiomas</h3>
+        <ul class="Idiomas">
+          <li>
+            <span>Português</span>
+            <span>Nativo</span>
+          </li>
+          <li>
+            <span>Inglês</span>
+            <span>Avançado</span>
+          </li>
+          <li>
+            <span>Espanhol</span>
+            <span>Avançado</span>
+          </li>
+        </ul>
+        <h3>Referências</h3>
+        <ul class="references">
+          <br>
+          <img src="img/linkedin.svg" /> linkedin.com/in/adilsondjr
+          <br> <br>
+          <img src="img/github-5.svg" /> github.com/adilsondjr
+        </ul>
+      </aside>
+      <section>
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <span>
+            <h4>Estágio em TI</h4>
+            <h5>STB</h5>  
+                <p>Suporte aos usuarios no sistema de gestão da empresa</p>
+                <p>Manutenção de máquinas</p>
+                <p>Adiministração da Rede</p>
+                <br>
+            <h4>Analista de TI</h4>
+            <h5>JFL</h5>
+                <p>Manutenção e implatação de modulos do sistema de gestão</p>
+                <p>Adiministração da base de dados da empresa</p>
+                <br>
+        </ul>
+        <h2>Formação Acadêmica</h2>
+        <ul>
+          <span>
+          <h4>Técnica em Informática</h4>
+              <h5>CP1 | 2012</h5>
+              <br>
+          <h4>Sistemas de Informação</h4>
+              <h5>FAI | 2012-2015</h5>
+              <br>
+          <h4>Pós Graduação Desenvolvimento WEB, Cloud e Mobile</h4>
+              <h5>INATEL | 2024</h5>
+              <br>
+          </span>
+        </ul>
+        <h2>Cursos e Certificações</h2>
+        <ul>
+          <li>Projeto decoder - Decodificando os MS</li>
+          <li>Criando aplicações com spring boot</li>
+          <li>Java 8 - Streams</li>
+        </ul>
+        <h2>Atividades Extracurriculares</h2>
+        <ul>
+          <li>FAITEC - 2012-2015</li>
+        </ul>
+      </section>
+      <section>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <h2>Entre em Contato</h2>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
